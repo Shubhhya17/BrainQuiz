@@ -1,0 +1,16 @@
+.hero-div button{
+    color: red;
+   padding-left: 10px;
+   border: none;
+   
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    background: White;
+}
+.main-div h1{
+ color: red;
+}
+
