@@ -1,0 +1,110 @@
+.how {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  /* Desktop */
+  .howGrid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .stepCard {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  /* .icon {
+    width: 60px;
+    height: 60px;
+  }
+   */
+  .startBtn {
+    margin-top: 10px;
+    padding: 8px 18px;
+    background: #0ea5e9;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  .btnRow {
+    width: 100%;
+    /* display: flex; */
+    justify-content: flex-end; /* Right side */
+    margin-top: 20px;
+  }
+  
+  .seeMoreBtn {
+    padding: 10px 20px;
+
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s ease;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 15px;
+    transition: all .2s;
+    background: none;
+    color: red;
+  }
+  
+  .seeMoreBtn:hover {
+    background: #0284c7;
+  }
+  
+  
+  /* 1024px - Laptop */
+  @media (max-width: 1024px) {
+    .howGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* 768px - Tablet */
+  @media (max-width: 768px) {
+    .howGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  /* 480px - Mobile */
+  @media (max-width: 480px) {
+    .howGrid {
+      grid-template-columns: 1fr;
+    }
+  
+    .stepCard {
+      padding: 18px;
+    }
+  
+    .icon {
+      width: 45px;
+      height: 45px;
+    }
+  
+    .startBtn {
+      font-size: 13px;
+      padding: 7px 16px;
+    }
+  }
+  
