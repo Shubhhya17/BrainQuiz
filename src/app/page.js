@@ -5,12 +5,14 @@ import Footer from './components/footer/footer'
 import Quizcard from './components/quizhome/quizcard'
 import NotesCard from './components/notehome/notes'
 import ProjectCard from './components/projecthome/projectfile'
+import Banner from './components/Header/banner'
 
 const Page = () => {
   return (
     <>
       <div style={{ background: "white" }}>
         <Navbar />
+        <Banner/>
         <Quizcard/>
         <NotesCard/>
         <ProjectCard/>

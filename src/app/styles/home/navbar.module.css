@@ -1,16 +1,91 @@
-.hero-div button{
-    color: red;
-   padding-left: 10px;
-   border: none;
-   
-}
-.main-div{
+.navbar {
+    width: 100%;
+    background: #ffffff;
+    padding: 16px 40px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 20px 32px;
-    background: White;
-}
-.main-div h1{
- color: red;
-}
-
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 700;
+    color:rgb(245, 121, 12); /* red tone */
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navBtn {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: all 0.2s ease;
+  }
+  
+  .navBtn:hover {
+    color: #ff5252;
+    transform: translateY(-2px);
+  }
+  
+  .signupBtn {
+    background: rgb(245, 121, 12);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .signupBtn:hover {
+    background: rgb(245, 121, 12);
+    transform: translateY(-2px);
+  }
+  .navbar {
+    width: 100%;
+    background: #ffffff;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    /* Bottom shadow */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  
+    /* Thin bottom border for crisp look */
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  
+    position:sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logoImg {
+    width: 170px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .logo span {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ff5252;
+  }
+  
